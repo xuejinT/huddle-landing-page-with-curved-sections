@@ -1,0 +1,9 @@
+{
+  "name": "huddle-landing-page-with-curved-sections-master",
+  "version": "1.0.0",
+  "description": "A practice project from Frontend Mentor",
+  "main": "index.js",
+  "repository": "git@github.com:hoehooiyan/huddle-landing-page-with-curved-sections.git",
+  "author": "hoehooiyan <hoehooiyan@gmail.com>",
+  "license": "MIT"
+}
