@@ -5,22 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
 
   <script src="https://kit.fontawesome.com/e2240a6e96.js" crossorigin="anonymous"></script>
 
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div class="wrapper">
     <header class="header">
         <img src="./images/logo.svg" alt="huddle-logo" class="header__logo">
-        <button class="header__btn btn--header">Try it free</button>
+        <button class="header__btn btn btn--header">Try it free</button>
     </header>
 
     <section class="hero">
@@ -33,7 +28,7 @@
           You have a voice, but so does your audience.
           Create connections with your users as you engage in genuine discussion.
         </p>
-        <button class="hero__btn btn--cta">
+        <button class="hero__btn btn btn--cta">
           Get Started For Free
         </button>
       </div>
@@ -62,8 +57,8 @@
     </section>
 
     <main class="main">
-      <div class="main__content--first">
-        <div class="main__description">
+      <div class="main__content main__content--first">
+        <div class="main__description main__description--first">
           <h2 class="main__title">
             Grow Together
           </h2>
@@ -72,11 +67,11 @@
             Think of the insightful conversations you miss out on with a feedback form.
           </p>
         </div>
-        <img src="./images/illustration-grow-together.svg" alt="illustration-grow-together" class="main__img">
+        <img src="./images/illustration-grow-together.svg" alt="illustration-grow-together" class="main__img main__img--first">
       </div>
 
-      <div class="main__content--second">
-        <div class="main__description">
+      <div class="main__content main__content--second">
+        <div class="main__description main__description--second">
           <h2 class="main__title">
             Flowing Conversations
           </h2>
@@ -85,11 +80,11 @@
             just-in-time loading for a more natural flow.
           </p>
         </div>
-        <img src="./images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" class="main__img">
+        <img src="./images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" class="main__img main__img--second">
       </div>
 
-      <div class="main__content--third">
-        <div class="main__description">
+      <div class="main__content main__content--third">
+        <div class="main__description main__description--third">
           <h2 class="main__title">
             Your Users
           </h2>
@@ -98,7 +93,7 @@
             once signed in to your app, your users can start chatting immediately.
           </p>
         </div>
-        <img src="./images/illustration-your-users.svg" alt="illustration-your-users" class="main__img">
+        <img src="./images/illustration-your-users.svg" alt="illustration-your-users" class="main__img main__img--third">
       </div>
     </main>
 
@@ -106,7 +101,7 @@
       <h2 class="cta__title">
         Ready To Build Your Community?
       </h2>
-      <button class="cta__btn btn--cta">
+      <button class="cta__btn btn btn--cta">
         Get Started For Free
       </button>
     </section>
@@ -151,7 +146,7 @@
           </h3>
           <p class="footer__newsletter--text">
             To receive tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-            send you spam or pass on your email address
+            send you spam or pass on your email address.
           </p>
         </div>
 
@@ -162,10 +157,10 @@
       </div>
     </footer>
 
-    <div>
-      <p class="attribution">
+    <div class="copyright">
+      <p class="copyright__attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Hoe Hooi Yan</a>.
+        Coded by <a href="https://github.com/hoehooiyan" target="_blank">Hoe Hooi Yan</a>.
       </p>
     </div>
   </div>

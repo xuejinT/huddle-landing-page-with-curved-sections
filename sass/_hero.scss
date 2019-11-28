@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0 7rem 10rem 7rem;
+  text-align: center;
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  &__title {
+    font-family: var(--font-heading);
+    font-size: var(--fs-heading-big);
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    margin: 0 auto 2.4rem auto;
+    width: 40rem;
+  }
+
+  &__btn {
+    margin-bottom: 6rem;
+  }
+
+  &__img {
+    margin: 0 auto;
+    height: 60rem;
+    width: 80rem;
+
+    @media screen and (max-width: $tablet-big) {
+      height: 40rem;
+      width: 60rem;
+    }
+  }
+}
