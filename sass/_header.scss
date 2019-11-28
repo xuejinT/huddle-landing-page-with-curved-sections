@@ -5,6 +5,10 @@
   margin: 6rem 10rem 12rem 10rem;
   margin-bottom: 12rem;
 
+  @media screen and (max-width: $phone-big) {
+    margin: 3rem 4rem 10rem 4rem;
+  }
+
   &__logo {
     height: 3.9rem;
     width: 24rem;
@@ -12,6 +16,11 @@
     @media screen and (max-width: $tablet) {
       height: 3rem;
       width: 18rem;
+    }
+
+    @media screen and (max-width: $phone-big) {
+      height: 2rem;
+      width: 12rem;
     }
   }
 

@@ -17,6 +17,10 @@
     height: 70rem;
   }
 
+  @media screen and (max-width: $phone-big) {
+    height: 100vh;
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -38,6 +42,11 @@
     @media screen and (max-width: $tablet) {
       background-size: 120% 29%;
       top: -10rem;
+    }
+
+    @media screen and (max-width: $phone-big) {
+      background-image: url('../images/bg-footer-top-mobile.svg');
+      top: -8rem;
     }
   }
 
